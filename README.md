@@ -9,7 +9,12 @@ PicaLite est une visionneuse et un organiseur de photos et vidéos pour Windows,
 Vos fichiers restent dans leurs dossiers. Parcourez votre collection par dossiers ou chronologie,
 préparez une sélection et imprimez plusieurs photos sur une feuille, avec cadrage et repères de coupe.
 
-**[Télécharger PicaLite pour Windows x64](https://github.com/syl-craft/picalite-assets/releases/latest/download/PicaLiteApp-win-Setup.exe)**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/demos/01-parcourir-dark.gif">
+  <img src="readme/demos/01-parcourir-light.gif" alt="Démonstration : la collection parcourue par dossiers, puis en chronologie, avec le filtre photos ou vidéos" width="960">
+</picture>
+
+**[Télécharger PicaLite pour Windows x64](https://github.com/syl-craft/PicaLite/releases/latest/download/PicaLiteApp-win-Setup.exe)**
 
 Le programme d'installation installe le runtime .NET 10 Desktop si nécessaire. Il s'installe pour
 votre compte, sans remplacer le dossier du profil. L'application recherche les mises à jour ; vous
@@ -23,12 +28,30 @@ Le programme n'est pas signé : Windows SmartScreen peut afficher un avertisseme
 - Impression photo : formats personnalisés, cadrage, plusieurs photos par feuille, repères de coupe.
 - Interface en français et en anglais, thèmes clair, sombre et système.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/demos/02-visionneuse-dark.gif">
+  <img src="readme/demos/02-visionneuse-light.gif" alt="Démonstration : une photo ouverte en grand dans la visionneuse, zoomée, puis la suivante et une vidéo lue sur place" width="960">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/demos/03-selection-export-dark.gif">
+  <img src="readme/demos/03-selection-export-light.gif" alt="Démonstration : des photos cochées dans deux dossiers, puis exportées en JPEG avec la progression jusqu’au compte rendu" width="960">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/demos/04-impression-dark.gif">
+  <img src="readme/demos/04-impression-light.gif" alt="Démonstration : quatre photos 9 × 13 sur une feuille A4, une photo recadrée et les repères de coupe ajoutés" width="960">
+</picture>
+
+Photos de démonstration issues d’[Unsplash](https://unsplash.com), sous [licence Unsplash](https://unsplash.com/license) ;
+les auteurs sont cités dans [readme/demos/CREDITS.md](readme/demos/CREDITS.md).
+
 ## Modules optionnels
 
 Les moteurs natifs lourds sont téléchargés à la demande depuis **Paramètres → Modules** :
 Magick pour les formats avancés, FFmpeg pour les vignettes vidéo et libVLC pour la lecture vidéo.
 
-Le [manifeste des modules](https://github.com/syl-craft/picalite-assets/releases/download/modules/manifest.json)
+Le [manifeste des modules](https://github.com/syl-craft/PicaLite/releases/download/modules/manifest.json)
 est conservé dans la release permanente `modules`. Les archives, sources et licences sont disponibles
 dans les releases `modules-AAAA-MM-JJ`. Ces releases ne remplacent pas la dernière version de l'application.
 
