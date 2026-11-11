@@ -16,6 +16,8 @@ préparez une sélection et imprimez plusieurs photos sur une feuille, avec cadr
 
 **[Télécharger PicaLite pour Windows x64](https://github.com/syl-craft/PicaLite/releases/latest/download/PicaLiteApp-win-Setup.exe)**
 
+[![Soutenir sur Ko-fi](https://img.shields.io/badge/Ko--fi-Soutenir-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/sylcraft)
+
 Le programme d'installation installe le runtime .NET 10 Desktop si nécessaire. Il s'installe pour
 votre compte, sans remplacer le dossier du profil. L'application recherche les mises à jour ; vous
 décidez de leur téléchargement et du redémarrage. Cette recherche peut être désactivée dans les Paramètres.
