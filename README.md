@@ -48,6 +48,20 @@ Le programme n'est pas signé : Windows SmartScreen peut afficher un avertisseme
 Photos de démonstration issues d’[Unsplash](https://unsplash.com), sous [licence Unsplash](https://unsplash.com/license) ;
 les auteurs sont cités dans [readme/demos/CREDITS.md](readme/demos/CREDITS.md).
 
+## Fichiers d'impression 3D
+
+- Une source peut inclure les fichiers `.stl` et `.3mf` : ils apparaissent dans la grille avec leur aperçu,
+  l'image du projet ou, à défaut, le dessin de l'objet.
+- Un filtre « 3D » les isole, et la visionneuse les montre en grand. Ils restent hors impression.
+- En option, PicaLite fournit aussi leurs vignettes à l'Explorateur Windows, y compris pour un `.3mf` sans image.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/demos/05-fichiers-3d-dark.gif">
+  <img src="readme/demos/05-fichiers-3d-light.gif" alt="Démonstration : des fichiers .stl et .3mf avec leur aperçu dans la grille, isolés par le filtre 3D, ouverts en grand dans la visionneuse, puis affichés avec leur vignette dans l’Explorateur Windows" width="960">
+</picture>
+
+Modèles de démonstration conçus pour ce projet, dessinés par le moteur d'aperçu 3D de PicaLite.
+
 ## Modules optionnels
 
 Les moteurs natifs lourds sont téléchargés à la demande depuis **Paramètres → Modules** :
